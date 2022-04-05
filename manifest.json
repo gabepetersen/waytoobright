@@ -1,0 +1,10 @@
+{
+  "name": "Way too bright",
+  "description": "A simple dark mode activator",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "serviceWorker.js"
+  },
+  "permissions": ["storage"]
+}
