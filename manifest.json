@@ -8,6 +8,18 @@
   },
   "permissions": ["storage"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/img/sun-logo-16.png",
+      "32": "/img/sun-logo-32.png",
+      "48": "/img/sun-logo-48.png",
+      "128": "/img/sun-logo-128.png"
+    }
+  },
+  "icons": {
+    "16": "/img/sun-logo-16.png",
+    "32": "/img/sun-logo-32.png",
+    "48": "/img/sun-logo-48.png",
+    "128": "/img/sun-logo-128.png"
   }
 }
