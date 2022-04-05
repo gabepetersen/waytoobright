@@ -1,12 +1,12 @@
 {
   "name": "Way too bright",
   "description": "A simple dark mode activator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "manifest_version": 3,
   "background": {
     "service_worker": "serviceWorker.js"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
